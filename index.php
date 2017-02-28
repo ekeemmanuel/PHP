@@ -42,15 +42,15 @@ echo "My name is"." ". " " . $hobbit . "and I am"." ". $age;
 </p>
 <p>
     <?php
-    $val = "19";
+    $val = "17";
 
-    if ($val < "18") {
+    if ($val < "16") {
         print "buy specs";
     }
-    if ($val == "18") {
+    if ($val > "16" && $val < "18") {
         print "buy mugs";
     }
-    if ($val > "18")
+    if ($val > "18" && $val < "21")
     {print "buy sausage rolls";
     }
     ?>
