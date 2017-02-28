@@ -27,9 +27,10 @@ echo "My name is" . " " . $elf . "and I am" . $age;
     /*I don't get printed either
     and neither do I.*/
     ?>
+</p>
 <p>
     <?php
-    $name = "Simon";
+    $name = "Edgar";
 
     if ($name == "Simon") {
         print "I know you";
@@ -37,7 +38,8 @@ echo "My name is" . " " . $elf . "and I am" . $age;
         print "Who are you?";
     }
     ?>
-
+</p>
+<p>
     <?php
     $val = "18";
 
