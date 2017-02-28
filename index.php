@@ -58,7 +58,7 @@ echo "My name is" . " " . $hobbit . "and I am" . $age;
 </p>
 <p>
     <?php
-    $numberHobbits="default";
+    $numberHobbits="3";
 
     switch($numberHobbits) {
         case 1:
