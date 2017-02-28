@@ -5,13 +5,15 @@
 <body>
 <p>
     <?php
-
     echo "Hello World!";
 
     echo "Hello" . " " . "World" . "!";
 
     echo 5 * 7;
+    ?>
+</p>
 
+    <?php
     $name = "Frodo Baggins";
     $age = "111";
     echo "My name is" . $name . "am I am" . $age;
@@ -22,6 +24,5 @@
     /*I don't get printed either
     and neither do I*/
     ?>
-</p>
 </body>
 </html>
