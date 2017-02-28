@@ -18,7 +18,7 @@
 <?php
 $hobbit = "Frodo Baggins";
 $age = "111";
-echo "My name is" . " " . $hobbit . "and I am" . $age;
+echo "My name is"." ". " " . $hobbit . "and I am"." ". $age;
 ?>
 <p>
     <?php
@@ -74,6 +74,7 @@ echo "My name is" . " " . $hobbit . "and I am" . $age;
             echo "All the hobbits have gone home";
     }
     ?>
+
 </p>
 </body>
 </html>
