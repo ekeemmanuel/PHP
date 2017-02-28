@@ -31,7 +31,7 @@ echo "My name is" . " " . $hobbit . "and I am" . $age;
 </p>
 <p>
     <?php
-    $name = "Edgar";
+    $name = "Simon";
 
     if ($name == "Simon") {
         print "I know you";
@@ -42,7 +42,7 @@ echo "My name is" . " " . $hobbit . "and I am" . $age;
 </p>
 <p>
     <?php
-    $val = "18";
+    $val = "19";
 
     if ($val < "18") {
         print "buy specs";
@@ -58,7 +58,7 @@ echo "My name is" . " " . $hobbit . "and I am" . $age;
 </p>
 <p>
     <?php
-    $numberHobbits=2;
+    $numberHobbits="default";
 
     switch($numberHobbits) {
         case 1:
