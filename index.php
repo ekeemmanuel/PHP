@@ -15,9 +15,9 @@
     ?>
 </p>
 <?php
-$elf = "Frodo Baggins";
+$hobbit = "Frodo Baggins";
 $age = "111";
-echo "My name is" . " " . $elf . "and I am" . $age;
+echo "My name is" . " " . $hobbit . "and I am" . $age;
 ?>
 <p>
     <?php
@@ -51,6 +51,25 @@ echo "My name is" . " " . $elf . "and I am" . $age;
     }
     if ($val > "18")
     {print "buy sausage rolls";
+    }
+    ?>
+</p>
+<p>
+    <?php
+    $numberHobbits=2;
+
+    switch($numberHobbits) {
+        case 1:
+            echo "1 sad hobbit";
+            break;
+        case 2:
+            echo "2 happy hobbits";
+            break;
+        case 3:
+            echo "3 hobbits are a crowd";
+            break;
+        default:
+            echo "All the hobbits have gone home";
     }
     ?>
 </p>
