@@ -10,7 +10,7 @@
 
     echo "Hello"." "."World"."!";
 
-    echo 5*7;
+    echo "5*7";
 
     $name="Frodo Baggins";
     $age="111";
