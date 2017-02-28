@@ -39,7 +39,7 @@ echo "My name is" . " " . $elf . "and I am" . $age;
     ?>
 
     <?php
-    $val = "17";
+    $val = "18";
 
     if ($val < "18") {
         print "buy specs";
@@ -47,7 +47,7 @@ echo "My name is" . " " . $elf . "and I am" . $age;
     if ($val == "18") {
         print "buy mugs";
     }
-    else
+    if ($val > "18")
     {print "buy sausage rolls";
     }
     ?>
