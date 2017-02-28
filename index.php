@@ -54,7 +54,6 @@ echo "My name is"." ". " " . $hobbit . "and I am"." ". $age;
     {print "buy sausage rolls";
     }
     ?>
-
 </p>
 <p>
     <?php
