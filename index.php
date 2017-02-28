@@ -15,9 +15,9 @@
     ?>
 </p>
     <?php
-    $name = "Frodo Baggins";
+    $elf = "Frodo Baggins";
     $age = "111";
-    echo "My name is". $name . "am I am" . $age;
+    echo "My name is". $elf . "am I am" . $age;
     ?>
 <p>
     <?php
@@ -26,6 +26,17 @@
 
     /*I don't get printed either
     and neither do I.*/
+    ?>
+<p>
+    <?php
+    $name="Edgar";
+
+    if ($name=="Simon"){
+        print "I know you";
+    }
+    else{
+        print "Who are you?";
+    }
     ?>
 </p>
 </body>
