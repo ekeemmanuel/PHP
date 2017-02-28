@@ -6,7 +6,6 @@
  * Time: 14:06
  */
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +13,8 @@
 <body>
 <p>
     <?php
-    echo "Hello World";
+    echo "Hello World!";
+    echo "Hello"." ""World"."!"
     ?>
 </p>
 </body>
