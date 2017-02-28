@@ -9,18 +9,17 @@
     echo "Hello" . " " . "World" . "!";
     ?>
 </p>
-    echo "<br>";
+<p>
     <?php
     echo 5 * 7;
     ?>
-
+</p>
     <?php
-    echo "<br>";
     $name = "Frodo Baggins";
     $age = "111";
     echo "My name is". $name . "am I am" . $age;
     ?>
-
+<p>
     <?php
     echo "I get printed!";
     //I don't I'm a comment.
@@ -28,5 +27,6 @@
     /*I don't get printed either
     and neither do I.*/
     ?>
+</p>
 </body>
 </html>
