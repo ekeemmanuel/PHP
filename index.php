@@ -29,7 +29,7 @@
     ?>
 <p>
     <?php
-    $name="Simon";
+    $name="Edgar";
 
     if($name=="Simon"){
         print "I know you";
