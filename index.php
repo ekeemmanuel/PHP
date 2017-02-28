@@ -14,11 +14,11 @@
     echo 5 * 7;
     ?>
 </p>
-    <?php
-    $elf = "Frodo Baggins";
-    $age = "111";
-    echo "My name is"." ". $elf . "and I am" . $age;
-    ?>
+<?php
+$elf = "Frodo Baggins";
+$age = "111";
+echo "My name is" . " " . $elf . "and I am" . $age;
+?>
 <p>
     <?php
     echo "I get printed!";
@@ -29,13 +29,26 @@
     ?>
 <p>
     <?php
-    $name="Simon";
+    $name = "Simon";
 
-    if($name=="Simon"){
+    if ($name == "Simon") {
         print "I know you";
-    }
-    else{
+    } else {
         print "Who are you?";
+    }
+    ?>
+
+    <?php
+    $val = "17";
+
+    if ($val < "18") {
+        print "buy specs";
+    }
+    if ($val == "18") {
+        print "buy mugs";
+    }
+    else
+    {print "buy sausage rolls";
     }
     ?>
 </p>
