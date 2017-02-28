@@ -17,7 +17,7 @@
     <?php
     $elf = "Frodo Baggins";
     $age = "111";
-    echo "My name is". $elf . "am I am" . $age;
+    echo "My name is". $elf . "and I am" . $age;
     ?>
 <p>
     <?php
@@ -29,9 +29,9 @@
     ?>
 <p>
     <?php
-    $name="Edgar";
+    $name="Simon";
 
-    if ($name=="Simon"){
+    if($name=="Simon"){
         print "I know you";
     }
     else{
