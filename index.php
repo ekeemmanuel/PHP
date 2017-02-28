@@ -6,20 +6,19 @@
 <p>
     <?php
     echo "Hello World!";
-
     echo "Hello" . " " . "World" . "!";
-    echo "<br>";
     ?>
 </p>
-
+    echo "<br>";
     <?php
     echo 5 * 7;
     ?>
 
     <?php
+    echo "<br>";
     $name = "Frodo Baggins";
     $age = "111";
-    echo "My name is" . $name . "am I am" . $age;
+    echo "My name is". $name . "am I am" . $age;
     ?>
 
     <?php
