@@ -17,7 +17,7 @@
     <?php
     $elf = "Frodo Baggins";
     $age = "111";
-    echo "My name is". $elf . "and I am" . $age;
+    echo "My name is"." ". $elf . "and I am" . $age;
     ?>
 <p>
     <?php
