@@ -8,10 +8,11 @@
     echo "Hello World!";
 
     echo "Hello" . " " . "World" . "!";
-echo "<br>";
-    echo 5 * 7;
     ?>
 </p>
+    <?php
+    echo 5 * 7;
+    ?>
 
     <?php
     $name = "Frodo Baggins";
