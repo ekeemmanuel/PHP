@@ -4,9 +4,8 @@
 </head>
 <body>
 <p>
-
     <?php
-    echo "Hello World!". "<br>";
+    echo "Hello World!" . "<br>";
     echo "Hello" . " " . "World" . "!";
     ?>
 </p>
@@ -16,71 +15,92 @@
     ?>
 </p>
 <?php
-$hobbit = "Frodo Baggins";
+$name = "Frodo Baggins";
 $age = "111";
-echo "My name is"." ". " " . $hobbit . "and I am"." ". $age;
+echo "My name is" . " " . $name . " " . "and I am" . " " . $age . " " . "years old";
 ?>
 <p>
     <?php
     echo "I get printed!";
-    //I don't I'm a comment.
+    //I don't! I'm a comment.
 
     /*I don't get printed either
     and neither do I.*/
     ?>
 </p>
+<?php
+$name = "Edgar";
+
+if ($name == "Simon") {
+    print "I know you!";
+} else {
+    print "Who are you?";
+}
+?>
 <p>
     <?php
-    $name = "Simon";
+    $myage = "22";
 
-    if ($name == "Simon") {
-        print "I know you";
-    } else {
-        print "Who are you?";
+    if ($myage > "16" && $myage <= "18") {
+        print "age" . $myage . " " . "is only allowed to buy specs";
+    }
+    if ($myage > "18" && $myage <= "21") {
+        print "age" . $myage . " " . " is only allowed to buy mugs";
+    }
+    if ($myage > "21") {
+        print "age" . $myage . " " . "is only allowed to buy sausage rolls";
     }
     ?>
 </p>
+<?php
+$numberOfHobbits = "3";
+
+switch ($numberOfHobbits) {
+    case 1:
+        echo "1 sad hobbit";
+        break;
+    case 2:
+        echo "2 happy hobbits";
+        break;
+    case 3:
+        echo "3 hobbits are a crowd";
+        break;
+    default:
+        echo "All the hobbits have gone home";
+}
+?>
 <p>
     <?php
-    $val = "17";
+    $wantedgood = "specs";
 
-    if ($val < "16") {
-        print "buy specs";
+    if ($wantedgood = "specs") {
+        print "You have to be 16 to buy specs";
     }
-    if ($val > "16" && $val < "18") {
-        print "buy mugs";
+    if ($wantedgood = "mugs") {
+        print "You have to be 18 to buy mugs";
     }
-    if ($val > "18" && $val < "21")
-    {print "buy sausage rolls";
+    if ($wantedgood = "sausage rolls") {
+        print "You have to be 21 to buy sausage rolls";
     }
     ?>
 </p>
+<?php
+$myArray = array("do", "re", "mi"); //declare the array
+
+echo $myArray[0];//outputs "do"
+$myArray[1] = "la";//modifies position 1 (re)
+echo $myArray[1];//outputs "la"
+unset($myArray[2]);//removes the array in position 2
+?>
 <p>
     <?php
-    $numberHobbits="3";
+    $provisionedActivities = array("specs", "mugs", "sausage rolls");
 
-    switch($numberHobbits) {
-        case 1:
-            echo "1 sad hobbit";
-            break;
-        case 2:
-            echo "2 happy hobbits";
-            break;
-        case 3:
-            echo "3 hobbits are a crowd";
-            break;
-        default:
-            echo "All the hobbits have gone home";
-    }
-    ?>
-<p>
-    <?php
-    $myArray=array("do","re","mi"); //declare the array
-
-    echo $myArray[0];//outputs "do"
-    $myArray[1]= "la";//modifies position 1 (re)
-    echo $myArray[1];//outputs "la"
-    unset($myArray[2]);//removes the array in position 2
+    print "<p>$provisionedActivities[0]</p>";
+    $provisionedActivities[1] = "hugs";
+    print "<p>$provisionedActivities[1]</p>";
+    unset($provisionedActivities[2]);
+    print null;
     ?>
 </p>
 </body>
