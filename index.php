@@ -74,13 +74,13 @@ switch ($numberOfHobbits) {
     $wantedgood = "specs";
 
     if ($wantedgood = "specs") {
-        print "You have to be 16 to buy specs";
+        print "You have to be 16 to buy specs." . " ";
     }
     if ($wantedgood = "mugs") {
-        print "You have to be 18 to buy mugs";
+        print "You have to be 18 to buy mugs." . " ";
     }
     if ($wantedgood = "sausage rolls") {
-        print "You have to be 21 to buy sausage rolls";
+        print "You have to be 21 to buy sausage rolls. ";
     }
     ?>
 </p>
