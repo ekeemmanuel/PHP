@@ -42,13 +42,13 @@ if ($name == "Simon") {
     $myage = "22";
 
     if ($myage > "16" && $myage <= "18") {
-        print "age" . " " . $myage . " " . "is only allowed to buy specs";
+        print "Age" . " " . $myage . " " . "is only allowed to buy specs";
     }
     if ($myage > "18" && $myage <= "21") {
-        print "age" . " " . $myage . " " . " is only allowed to buy mugs";
+        print "Age" . " " . $myage . " " . " is only allowed to buy mugs";
     }
     if ($myage > "21") {
-        print "age" . " " . $myage . " " . "is only allowed to buy sausage rolls";
+        print "Age" . " " . $myage . " " . "is only allowed to buy sausage rolls";
     }
     ?>
 </p>
