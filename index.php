@@ -103,5 +103,11 @@ unset($myArray[2]);//removes the array in position 2
     print null;
     ?>
 </p>
+<?php
+for($=1; $<10; $=++){
+    echo "<p>Hello!</p>"
+}
+?>
+?>
 </body>
 </html>
