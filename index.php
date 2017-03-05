@@ -101,7 +101,17 @@ unset($myArray[2]);//removes the array in position 2
     print "<p>$provisionedActivities[1]</p>";
     unset($provisionedActivities[2]);
     print null;
+
+    foreach ($provisionedActivities as $value){
+        echo "$value , ";
+    }
     ?>
 </p>
+    <?php
+    for ($x = 0; $x<= 10; $x++){
+        echo "The number is: $x <br>";
+    }
+    ?>
+?>
 </body>
 </html>
