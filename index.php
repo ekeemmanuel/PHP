@@ -115,7 +115,7 @@ unset($myArray[2]);//removes the array in position 2
     ?>
 </p>
     <?php
-    for ($x = 1; $x <= 5; $x++) {
+    for ($x = 1; $x <= 3; $x++) {
     echo "The number is: $x <br>";
     }
     ?>
@@ -131,16 +131,16 @@ unset($myArray[2]);//removes the array in position 2
     <?php
     for($m=1 ; $m<31; $m++){
         if (gettype($m/4) == gettype(1/1)){
-            print "<p> On day {$m} of the month, specs and sausages are available </p> ";
+            print "<p> On day {$m} of the month specs and sausages are available. </p> ";
         }
         elseif(gettype($m/3) == gettype(1/1)){
-            print "<p> On day {$m} of the month, mugs are available </p> ";
+            print "<p> On day {$m} of the month. mugs are available. </p> ";
         }
         elseif(gettype($m/2) == gettype(1/1)){
-            print "<p> On day {$m} of the month, specs are available </p> ";
+            print "<p> On day {$m} of the month specs are available. </p> ";
         }
         else {
-            print "<p> On day {$m} of the month, no products are available </p> ";
+            print "<p> On day {$m} of the month no products are available. </p> ";
         }
     }
     ?>
