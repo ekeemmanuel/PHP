@@ -121,8 +121,10 @@ unset($myArray[2]);//removes the array in position 2
     ?>
     <?php
     $second = array("no products  are available", "specs are available", "mugs are available", "specs and sausages are available");
-    for ($y = 1; $y <= 3; $y = $y + 2) {
-    echo "On the {$y} day of the month, {$second[1]} <br>";
+    for ($y = 1; $y <= 5; $y = $y + 2) {
+    echo "On the {$y [0]}} day of the month, {$second[0]} <br>";
+        echo "On the {$y [1]}} day of the month, {$second[1]} <br>";
+        echo "On the {$y [3]}} day of the month, {$second[3]} <br>";
     }
     ?>
 <p>
