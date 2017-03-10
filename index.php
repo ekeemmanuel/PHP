@@ -103,7 +103,7 @@ unset($myArray[2]);//removes the array in position 2
     print null;
 
     foreach ($provisionedActivities as $value) {
-        print "$value ";
+        print "$value <br>";
     }
     ?>
 </p>
