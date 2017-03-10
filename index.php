@@ -95,29 +95,53 @@ unset($myArray[2]);//removes the array in position 2
 <p>
     <?php
     $provisionedActivities = array("specs", "mugs", "sausage rolls");
-
-    print "<p>$provisionedActivities[0]</p>";
-    $provisionedActivities[1] = "hugs";
-    print "<p>$provisionedActivities[1]</p>";
-    unset($provisionedActivities[2]);
-    print null;
-
-    foreach ($provisionedActivities as $value) {
-        print "$value <br>";
+    foreach ($provisionedActivities as $p) {
+        print "$p <br>";
     }
     ?>
 </p>
-<?php
-for ($x = 1; $x <= 5; $x++) {
+    <?php
+   $provisionedActivities[1] = "hugs";
+    foreach ($provisionedActivities as $q){
+        print "$q <br>";
+    }
+    ?>
+<p>
+    <?php
+    unset($provisionedActivities[2]);
+    foreach ($provisionedActivities as $q){
+        print "$q <br>";
+    }
+    ?>
+</p>
+    <?php
+    for ($x = 1; $x <= 5; $x++) {
     echo "The number is: $x <br>";
-}
-?>
-<?php
-$second = array("no products  are available", "specs are available", "mugs are available", "specs and sausages are available");
-for ($y = 1; $y <= 3; $y = $y + 2) {
-    echo "On the $y day of the month, $second[1] <br>";
-}
-?>
-
+    }
+    ?>
+    <?php
+    $second = array("no products  are available", "specs are available", "mugs are available", "specs and sausages are available");
+    for ($y = 1; $y <= 3; $y = $y + 2) {
+    echo "On the {$y} day of the month, {$second[1]} <br>";
+    }
+    ?>
+<p>
+    <?php
+    for($m=1 ; $m<31; $m++){
+        if (gettype($m/4) == gettype(1/1)){
+            print "<p> On day {$m} of the month, specs and sausages are available </p> ";
+        }
+        elseif(gettype($m/3) == gettype(1/1)){
+            print "<p> On day {$m} of the month, mugs are available </p> ";
+        }
+        elseif(gettype($m/2) == gettype(1/1)){
+            print "<p> On day {$m} of the month, specs are available </p> ";
+        }
+        else {
+            print "<p> On day {$m} of the month, no products are available </p> ";
+        }
+    }
+    ?>
+</p>
 </body>
 </html>
