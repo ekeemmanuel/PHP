@@ -3,6 +3,22 @@
 <head>
 </head>
 <body>
+
+<form action="index.php" method="post">
+    <fieldset>
+        <h3>SHIELD</h3>
+        <label>First Name:</label><input type="text" name="fname"/>
+        <label>Surname:</label><input type="text" name="sname"/>
+        <br>
+        <label>Gender:</label><input type="text" name="gender"/>
+        <br>
+        <label>Main Superhero Power:</label><input type="text" name="power">
+        <br>
+        <input type="submit" value="Enlist"/>
+    </fieldset>
+</form>
+
+
 <p>
     <?php
     echo "Hello World!" . "<br>";
@@ -151,21 +167,6 @@ unset($myArray[2]);//removes the array in position 2
   }
 
 ?>
-
-<form action="index.php" method="post">
-    <fieldset>
-        <h3>SHIELD</h3>
-        <label>First Name:</label></input type="text" name="fname">
-        <label>Surname:</label></label></input type="text" name="sname">
-        <br>
-        <label>Gender:</label></label></input type="text" name="gender">
-        <br>
-        <label>Main Superhero Power:</label></label></input type="text" name="power">
-        <br>
-        </input type="submit" value="Enlist">
-    </fieldset>
-</form>
-
 
 </body>
 </html>
