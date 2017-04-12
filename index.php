@@ -137,5 +137,35 @@ unset($myArray[2]);//removes the array in position 2
     }
     ?>
 </p>
+
+<?php
+  if ($_SERVER['REQUEST_METHOD']==='post'){
+      $aaa=$_POST['fname'];
+      $aab=$_POST['sname'];
+      $aac=$_POST['gender'];
+      $aaa=$_POST['power'];
+
+      echo "Hello "."{'$aaa'}"." "."{'$aab'}".",<br>".
+          "You're a "."{'$aac'}"."with the "."{'$aaa'}"."ability.
+          <br>Welcome to SHIELD.";
+  }
+
+?>
+
+<form action="index.php" method="post">
+    <fieldset>
+        <h3>SHIELD</h3>
+        <label>First Name:</label></input type="text" name="fname">
+        <label>Surname:</label></label></input type="text" name="sname">
+        <br>
+        <label>Gender:</label></label></input type="text" name="gender">
+        <br>
+        <label>Main Superhero Power:</label></label></input type="text" name="power">
+        <br>
+        </input type="submit" value="Enlist">
+    </fieldset>
+</form>
+
+
 </body>
 </html>
